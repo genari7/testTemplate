@@ -25,9 +25,16 @@ body::-webkit-scrollbar {
 	height: 10px;	
 }
 
+
 @media(max-width:600px) {
 	.block {
+		height: 200px;	
+	}	
+	.block2 {
 		height: 100px;	
+	}
+	.block3{
+		height: 50px;	
 	}
 }
 }
