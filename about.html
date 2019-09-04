@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <!--
 	Forty by HTML5 UP
@@ -8,67 +7,50 @@
 <html>
 
 <head>
-	<title>Jl Woong, Portfolio</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="css/index.css" />
+    <title>Jl Woong, Portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="css/index.css" />
     <link rel="stylesheet" href="css/main.css" />
-    <link rel="stylesheet" href="css/about.css" />     
-    <script src="https://kit.fontawesome.com/a5bbe5db6a.js"></script> <!-- 폰트어썸 버전 5 -->    
-	<!--[if lte IE 9]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie8.css" /><![endif]-->
+    <link rel="stylesheet" href="css/about.css" />
+    <script src="https://kit.fontawesome.com/a5bbe5db6a.js"></script> <!-- 폰트어썸 버전 5 -->
+    <!--[if lte IE 9]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie8.css" /><![endif]-->
 </head>
 
 
 <body>
 
     <!-- Wrapper -->
-<div id="wrapper">
+    <div id="wrapper">
 
-<!-- Header -->
-<header id="header">
-	<a href="index.html" class="logo"><strong>Portfolio</strong> <span>by Jl Woong</span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
+        <!-- Header -->
+        <header class="header" include-html="header.html"></header>
+
+
         <!-- Menu -->
         <nav id="menu">
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="/forty-jekyll-theme/all_posts.html">All posts</a></li>
                 <li><a href="about.html">About Me</a></li>
-                <li><a href="/forty-jekyll-theme/landing.html">My Social</a></li>
                 <li><a href="/forty-jekyll-theme/elements.html">My Work</a></li>
 
             </ul>
         </nav>
 
-		<!-- main -->
-		<div id="main">
-			<span class="image"> <img src="images/title.png" /></span><br/>
-			<span class="image"> <img src="images/about_detail.png"/></span>
-		</div>
+        <!-- main -->
+        <div id="main">
+            <span class="image"> <img src="images/title.png" /></span><br />
+            <span class="image"> <img src="images/about_detail.png" /></span>
+        </div>
 
-		<!-- Footer -->
-        <footer id="footer">
-            <div class="inner">
-                <ul class="icons">
-                    <li><a href="https://www.facebook.com/profile.php?id=100003592216119" class="icon alt fa fa-facebook" target="_blank"><span class="label">facebook</span></a></li>                 
-                    <li><a href="https://www.instagram.com/jl_woong/?hl=ko" class="icon alt fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/20124899" class="icon alt fa fa-github" target="_blank"><span class="label">github</span></a></li>
-                </ul>
-                <div class="contact">CONTACT ME</div>
-                <ul class="copyright"> 
-                    <li>&copy; PORTFOLIO BY JL WOONG</li>
-                    <li><i class="far fa-envelope"></i>&nbsp; cdkgw11@hanmail.net</li>
-                    <li><i class="fas fa-mobile-alt"></i>&nbsp; +82 10-3134-6455</li>
-                </ul>
-            </div>
-        </footer>
+        <!-- Footer -->
+        <footer class="footer" include-html="footer.html"></footer>
 
-  <!-- Scripts -->
+
+        <!-- Scripts -->
         <script src="js/jquery.min.js"></script>
         <script src="js/jquery.scrolly.min.js"></script>
         <script src="js/jquery.scrollex.min.js"></script>
@@ -76,7 +58,11 @@
         <script src="js/util.js"></script>
         <!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/respond.min.js"></script><![endif]-->
         <script src="js/main.js"></script>
+        <script src="js/includeHTML.js"></script>
 
+        <script>
+            includeHTML();
+        </script>
 </body>
 
 </html>

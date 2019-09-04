@@ -2656,7 +2656,7 @@ body.is-loading #banner>.inner {
 	margin:0 auto;
 	max-width:65em;
 	width:calc(100% - 6em)
-}
+}		
 
 #main>*>.inner2 {
 	padding:2em 0 2em 0;
@@ -2739,6 +2739,8 @@ body.is-loading #banner>.inner {
 		padding:3em 0 1em 0
 	}
 }
+
+
 #footer .copyright {
 	font-size:0.8em;
 	list-style:none;
