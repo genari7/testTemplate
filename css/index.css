@@ -1,11 +1,11 @@
-.content {	
+.content {
 	font-family: 'Poor Story', cursive;
 	font-size: 1.1em;
 }
 
 .major {
 	font-family: 'Teko', sans-serif;
-	font-size: 0.95em;	
+	font-size: 0.95em;
 }
 
 body::-webkit-scrollbar {
@@ -14,9 +14,20 @@ body::-webkit-scrollbar {
 
 #footer .inner .icons {
 	margin-bottom: 80px;
-} 
+}
 
 .contact {
-	font-size:0.9em; 
-	color: #4D5168;	
+	font-size: 0.9em;
+	color: #4D5168;
+}
+
+.block {
+	height: 10px;	
+}
+
+@media(max-width:600px) {
+	.block {
+		height: 100px;	
+	}
+}
 }
