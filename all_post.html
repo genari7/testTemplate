@@ -11,9 +11,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
     <!--[if lte IE 8]><script src="/forty-jekyll-theme/assets/js/ie/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="css/index.css" />    
     <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/about.css" />
     <link rel="stylesheet" href="css/work.css" />
-    <link rel="stylesheet" href="/forty-jekyll-theme/assets/css/main.css" />
     <link href="https://fonts.googleapis.com/css?family=Poor+Story&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/a5bbe5db6a.js"></script> <!-- 폰트어썸 버전 5 -->
     <!--[if lte IE 9]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie9.css" /><![endif]-->
@@ -22,10 +23,9 @@
 
 <body>
     <!-- Wrapper -->
-    <div id="wrapper">
+    <div id="wrapper">	
         <!-- Header -->
         <header class="header" include-html="header.html"></header>
-
         <!-- Menu -->
         <nav id="menu">
             <ul class="links">
@@ -35,7 +35,42 @@
                 <li><a href="work.html">My Work</a></li>
             </ul>
         </nav>
-         <section id="banner" class="major">
+        <section id="banner" class="major">
+            <div class="inner">
+                <header class="major">
+                    <h2 class="h2">저에 대해 더 알고싶으시다고요?</h1>
+                </header>
+                <div class="content">
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">더보기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        
+	 <section id="banner" class="style4">
+            <div class="inner">
+                <span class="image">
+                    <img src="" alt="">
+                </span>
+                <header class="major">
+
+                    <h1 class="h2">About me!</h1>
+                </header>
+                <div class="content">
+                	저에 대해 소개하자면...
+                </div>
+            </div>
+        </section>
+       
+        <!-- main -->
+         <section id="one" class="tiles">
+	        <div id="main">
+	            <span class="image"> <img src="images/title.png" /></span><br />
+	            <span class="image"><img src="images/about_me.png" /><br /><img src="images/about_detail.png" /></span>
+	        </div>
+        </section>
+		 <section id="banner" class="major">
             <div class="inner">
                 <header class="major">
                     <h2 class="h2">저의 작업물이 궁금하신가요?</h1>
@@ -47,7 +82,7 @@
                 </div>
             </div>
         </section>
-        <section id="banner" class="style2">
+	   <section id="banner" class="style5">
             <div class="inner">
                 <span class="image">
                     <img src="" alt="">
@@ -61,14 +96,13 @@
                 </div>
             </div>
         </section>
-
         <!-- Main -->
-        <div id="main">
+        <div id="main2">
             <!-- Two -->
             <section id="two" class="spotlights">
                 <section>
                     <a href="drone_detail.html" class="image">
-                        <img src="images/drone.png" alt="" data-position="center center" class="image_work"/>
+                        <img src="images/drone.png" alt="" data-position="center center" class="image_work" style="height: 500px;" />
                     </a>
                     <div class="content">
                         <div class="inner">
@@ -85,7 +119,7 @@
                 </section>
                 <section>
                     <a href="generic.html" class="image">
-                        <img src="images/AR.png" alt="" data-position="top center" class="image_work" />
+                        <img src="images/AR.png" alt="" data-position="top center" class="image_work" style="height: 500px;" />
                     </a>
                     <div class="content">
                         <div class="inner">
@@ -102,7 +136,7 @@
                 </section>
                 <section>
                     <a href="generic.html" class="image">
-                        <img src="images/weardrop.png" alt="" data-position="center center" class="image_work" />
+                        <img src="images/weardrop.png" alt="" data-position="center center" class="image_work" style="height: 500px;" />
                     </a>
                     <div class="content">
                         <div class="inner">
@@ -118,6 +152,12 @@
                     </div>
                 </section>
             </section>
+            
+        <!-- Contact -->
+<section id="contact">
+	<div class="inner">
+	</div>
+</section>
 
         </div>
         <!-- Footer -->
@@ -136,7 +176,6 @@
         <script>
             includeHTML();
         </script>
-
 </body>
 
 </html>

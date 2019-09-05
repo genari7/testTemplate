@@ -1,5 +1,5 @@
-#main {
-	text-align: center;	
+#main{
+	margin: auto;
 }
 
 .footer {
@@ -7,4 +7,8 @@
     margin: 0 auto;
     max-width: 65em;
     width: calc(100% - 6em);
+}	
+
+.h2 {
+	font-family: 'Poor Story', cursive;		
 }

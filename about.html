@@ -15,40 +15,50 @@
     <link rel="stylesheet" href="css/main.css" />
     <link rel="stylesheet" href="css/about.css" />
     <script src="https://kit.fontawesome.com/a5bbe5db6a.js"></script> <!-- 폰트어썸 버전 5 -->
+   <link href="https://fonts.googleapis.com/css?family=Poor+Story&display=swap" rel="stylesheet">
+     
     <!--[if lte IE 9]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie9.css" /><![endif]-->
     <!--[if lte IE 8]><link rel="stylesheet" href="/forty-jekyll-theme/assets/css/ie8.css" /><![endif]-->
 </head>
 
-
 <body>
-
     <!-- Wrapper -->
     <div id="wrapper">
-
         <!-- Header -->
         <header class="header" include-html="header.html"></header>
-
-
         <!-- Menu -->
         <nav id="menu">
             <ul class="links">
                 <li><a href="index.html">Home</a></li>
-                <li><a href="/forty-jekyll-theme/all_posts.html">All posts</a></li>
+                <li><a href="all_post.html">All posts</a></li>
                 <li><a href="about.html">About Me</a></li>
                 <li><a href="work.html">My Work</a></li>
-
             </ul>
         </nav>
 
+<!-- Banner -->
+        <section id="banner" class="major">
+            <div class="inner">
+                <header class="major">
+                    <h2 class="h2">저에 대해 더 알고싶으시다고요?</h1>
+                </header>
+                <div class="content">
+                    <ul class="actions">
+                        <li><a href="#one" class="button next scrolly">더보기</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
         <!-- main -->
+        <section id="one" class="tiles">
         <div id="main">
-            <span class="image"> <img src="images/title.png" /></span><br />         	      
+            <span class="image"> <img src="images/title.png" /></span><br />
             <span class="image"><img src="images/about_me.png" /><br /><img src="images/about_detail.png" /></span>
         </div>
+        </section>
 
         <!-- Footer -->
         <footer class="footer" include-html="footer.html"></footer>
-
 
         <!-- Scripts -->
         <script src="js/jquery.min.js"></script>

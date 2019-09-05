@@ -25,9 +25,16 @@ body::-webkit-scrollbar {
     width: calc(100% - 6em);
 }
 
+.image_work {
+	height: 500px;
+}
 @media (max-width :600px) {
   	.image_work {
   		height: 200px;
   	}
 
+}
+
+.h2 {
+	font-family: 'Poor Story', cursive;		
 }
